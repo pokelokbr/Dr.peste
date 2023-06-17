@@ -123,7 +123,7 @@ function Update:Window(text,logo,keybind)
 	Main.Parent = SOMEXHUB
 	Main.ClipsDescendants = true
 	Main.AnchorPoint = Vector2.new(0.5,0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+	Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 0, 0, 0)
 	
@@ -132,13 +132,13 @@ function Update:Window(text,logo,keybind)
 	local Top = Instance.new("Frame")
 	Top.Name = "Top"
 	Top.Parent = Main
-	Top.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+	Top.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Top.Size = UDim2.new(0, 656, 0, 27)
 	
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
 	Name.Parent = Top
-	Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Name.BackgroundTransparency = 1.000
 	Name.Position = UDim2.new(0.0609756112, -25, 0, 0)
 	Name.Size = UDim2.new(0, 61, 0, 27)
@@ -176,7 +176,7 @@ function Update:Window(text,logo,keybind)
 	local Tab = Instance.new("Frame")
 	Tab.Name = "Tab"
 	Tab.Parent = Main
-	Tab.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+	Tab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Tab.BackgroundTransparency = 1.000
 	Tab.Position = UDim2.new(0, 5, 0, 30)
 	Tab.Size = UDim2.new(0, 150, 0, 350)
@@ -271,7 +271,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(13769588902)
 		TabButton.Parent = ScrollTab
 		TabButton.Name = text.."Server"
 		TabButton.Text = text
-		TabButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+		TabButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		TabButton.BackgroundTransparency = 0.150
 		TabButton.Size = UDim2.new(0, 130, 0, 23)
 		TabButton.Font = Enum.Font.GothamSemibold
