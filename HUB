@@ -219,7 +219,7 @@ Page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Page.BackgroundTransparency = 1.10
 Page.Position = UDim2.new(0.245426834, 0, 0.075000003, 0)
 Page.Size = UDim2.new(0, 490, 0, 365)
-Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(13769588902)
+Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(15497104953)
 
 
 
